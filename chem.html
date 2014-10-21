@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Lily Ribeiro</title>
+    
+    <script type="text/javascript" src="chemConvert.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    
+</head>
+<body>
+<h1 class="animated rubberBand">Chemistry Mole Calculator</h1>
+<form name="moleform" action="" id="moleform";>
+
+	<label>Element: <input type="text" id="elem" name="elem"></label>
+	<label>Atomic mass: <input type="text" id="atomicMass" name="atomicMass"></label><br />
+	<label>Number of moles: <input type="text" id="numOfMoles"></label><br />
+	<label>Ounces: <input type="text" name="oz" id="oz"></label><br />
+	<label>Grams: <input type="text" id="molesGram" name="molesGram"></label><br />
+	
+	<p></p>
+
+</form>
+<input type="button" class="btn" value="Convert!" onclick="populateForm()"/>
+<input type="button" class="btn2" value="reset" onclick="resetInputs()"/>
+
+</body>
+</html>
